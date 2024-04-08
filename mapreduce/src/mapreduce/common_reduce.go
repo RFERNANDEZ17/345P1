@@ -51,6 +51,14 @@ func doReduce(
 	// Your code here (Part #I).
 	//
 
+	out, err := os.Create(outFile)
+	if err != nil {
+		fmt.Printf("Error creating file")
+		return
+	}
+
+	enc := json.NewEncoder(out)
+
 	for m := 0; m < nMap; m++ {
 		// read the intermediate file
 		fileName, err := os.Open(reduceName(jobName, m, reduceTask))
@@ -78,13 +86,6 @@ func doReduce(
 			reduceMap[kv.Key] = append(reduceMap[kv.Key], kv.Value)
 		}
 
-		// write the output to outFile
-		outFile, err := os.Create(outFile)
-		if err != nil {
-			fmt.Printf("Error creating file")
-			return
-		}
-		enc := json.NewEncoder(outFile)
 		for key, values := range reduceMap {
 			err := enc.Encode(KeyValue{key, reduceF(key, values)})
 			if err != nil {
@@ -92,7 +93,8 @@ func doReduce(
 				return
 			}
 		}
-		outFile.Close()
+
+		out.Close()
 
 	}
 }
