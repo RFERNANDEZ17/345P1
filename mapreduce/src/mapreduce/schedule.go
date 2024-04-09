@@ -34,30 +34,32 @@ func schedule(jobName string, mapFiles []string, nReduce int, phase jobPhase, re
 	fmt.Printf("REGINA")
 	var wg sync.WaitGroup
 	fmt.Printf("wait group")
-	for i, file := range mapFiles {
+	for i := 0; i < ntasks; i++ {
 		// add 1 to the waitgroup for each task
 		wg.Add(1)
 		fmt.Printf("added ")
-		// Get worker address
-		address := <-registerChan
-		fmt.Println(address)
-		fmt.Printf("address")
-		// Make DoTaskArgs structs
-		taskArgs := DoTaskArgs{
-			JobName:    jobName,
-			File:       file,
-			Phase:      phase,
-			TaskNumber: i + 1}
-		fmt.Printf("taskargs ")
-		// Call the worker
-		go func() {
+		file := mapFiles[i]
+		go func(file string) {
 			defer wg.Done()
+			// Get worker address
+			address := <-registerChan
+			// fmt.Println(address)
+			// fmt.Printf("address")
+			// fmt.Printf("HI")
+			// Make DoTaskArgs structs
+			taskArgs := DoTaskArgs{
+				JobName:    jobName,
+				File:       file,
+				Phase:      phase,
+				TaskNumber: 1 + i}
+			fmt.Printf("taskargs ")
+			// Call the worker
 			call(address, "Worker.DoTask", taskArgs, nil)
-		}()
+			registerChan <- address
+		}(file)
 		fmt.Printf("go call ")
 	}
 
 	fmt.Printf("Schedule: %v done\n", phase)
 	wg.Wait()
-	//return
 }
