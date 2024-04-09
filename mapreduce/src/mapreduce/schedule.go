@@ -31,22 +31,30 @@ func schedule(jobName string, mapFiles []string, nReduce int, phase jobPhase, re
 	//
 	// Your code here (Part #2, 2B).
 	//
-	fmt.Printf("REGINA")
+
+	// Start a wait group for all workers
 	var wg sync.WaitGroup
-	fmt.Printf("wait group")
+
 	for i := 0; i < ntasks; i++ {
+
 		// add 1 to the waitgroup for each task
 		wg.Add(1)
+
+		// use go statement for concurrency
 		go func(taskNum int) {
-			fmt.Println(taskNum)
+
+			// Signal when finished
 			defer wg.Done()
+
 			// Get file if we are in mapPhase
 			var file string
 			if phase == mapPhase {
 				file = mapFiles[taskNum]
 			}
+
 			// Get worker address
 			address := <-registerChan
+
 			// Make DoTaskArgs structs
 			taskArgs := DoTaskArgs{
 				JobName:       jobName,
@@ -54,9 +62,8 @@ func schedule(jobName string, mapFiles []string, nReduce int, phase jobPhase, re
 				Phase:         phase,
 				TaskNumber:    taskNum,
 				NumOtherPhase: n_other}
-			fmt.Printf("taskargs ")
 
-			// Call the worker
+			// Call the worker (checking for failures)
 			for {
 				done := call(address, "Worker.DoTask", taskArgs, nil)
 				if done {
@@ -69,8 +76,7 @@ func schedule(jobName string, mapFiles []string, nReduce int, phase jobPhase, re
 				}
 
 			}
-		}(i)
-		fmt.Printf("go call ")
+		}(i) // pass in the task number
 	}
 
 	fmt.Printf("Schedule: %v done\n", phase)
