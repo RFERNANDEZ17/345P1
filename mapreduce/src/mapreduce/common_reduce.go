@@ -58,6 +58,7 @@ func doReduce(
 	}
 
 	enc := json.NewEncoder(out)
+	reduceMap := make(map[string][]string)
 
 	for m := 0; m < nMap; m++ {
 		// read the intermediate file
@@ -69,7 +70,6 @@ func doReduce(
 
 		// decode the file
 		dec := json.NewDecoder(fileName)
-		var kvs []KeyValue
 		for dec.More() {
 			var kv KeyValue
 			err := dec.Decode(&kv)
@@ -77,23 +77,19 @@ func doReduce(
 				fmt.Printf("Error decoding file")
 				return
 			}
-			kvs = append(kvs, kv)
-		}
-
-		// call reduceF
-		reduceMap := make(map[string][]string)
-		for _, kv := range kvs {
 			reduceMap[kv.Key] = append(reduceMap[kv.Key], kv.Value)
 		}
 
-		for key, values := range reduceMap {
-			err := enc.Encode(KeyValue{key, reduceF(key, values)})
-			if err != nil {
-				fmt.Printf("Error encoding file")
-				return
-			}
-		}
+		fileName.Close()
+	}
 
+	// call reduceF for each key
+	for key, values := range reduceMap {
+		err := enc.Encode(KeyValue{key, reduceF(key, values)})
+		if err != nil {
+			fmt.Printf("Error encoding file")
+			return
+		}
 	}
 	out.Close()
 }
