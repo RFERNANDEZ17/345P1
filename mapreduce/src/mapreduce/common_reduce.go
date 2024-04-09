@@ -94,7 +94,6 @@ func doReduce(
 			}
 		}
 
-		out.Close()
-
 	}
+	out.Close()
 }
