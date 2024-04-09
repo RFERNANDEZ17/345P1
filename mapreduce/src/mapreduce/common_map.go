@@ -78,8 +78,13 @@ func doMap(
 
 	for _, kv := range slice {
 		// find r
-		r := ihash(kv.Key) % nReduce
-		intermediateFiles[r] = append(intermediateFiles[r], kv)
+		if nReduce != 0 {
+
+			r := ihash(kv.Key) % nReduce
+			intermediateFiles[r] = append(intermediateFiles[r], kv)
+		} else {
+			intermediateFiles[0] = append(intermediateFiles[0], kv)
+		}
 	}
 
 	for r, kv := range intermediateFiles {

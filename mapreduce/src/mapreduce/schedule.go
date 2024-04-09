@@ -37,26 +37,39 @@ func schedule(jobName string, mapFiles []string, nReduce int, phase jobPhase, re
 	for i := 0; i < ntasks; i++ {
 		// add 1 to the waitgroup for each task
 		wg.Add(1)
-		fmt.Printf("added ")
-		file := mapFiles[i]
-		go func(file string) {
+		go func(taskNum int) {
+			fmt.Println(taskNum)
 			defer wg.Done()
+			// Get file if we are in mapPhase
+			var file string
+			if phase == mapPhase {
+				file = mapFiles[taskNum]
+			}
 			// Get worker address
 			address := <-registerChan
-			// fmt.Println(address)
-			// fmt.Printf("address")
-			// fmt.Printf("HI")
 			// Make DoTaskArgs structs
 			taskArgs := DoTaskArgs{
-				JobName:    jobName,
-				File:       file,
-				Phase:      phase,
-				TaskNumber: 1 + i}
+				JobName:       jobName,
+				File:          file,
+				Phase:         phase,
+				TaskNumber:    taskNum,
+				NumOtherPhase: n_other}
 			fmt.Printf("taskargs ")
+
 			// Call the worker
-			call(address, "Worker.DoTask", taskArgs, nil)
-			registerChan <- address
-		}(file)
+			for {
+				done := call(address, "Worker.DoTask", taskArgs, nil)
+				if done {
+					// If successful task, reregister the worker and break
+					go func() { registerChan <- address }()
+					break
+				} else {
+					// If failed task, retrieve another address and redo
+					address = <-registerChan
+				}
+
+			}
+		}(i)
 		fmt.Printf("go call ")
 	}
 
