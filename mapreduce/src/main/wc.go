@@ -18,7 +18,7 @@ func mapF(filename string, contents string) []mapreduce.KeyValue {
 	// Your code here (Part #1B).
 
 	f := func(c rune) bool {
-		return !unicode.IsLetter(c) && !unicode.IsNumber(c) && c != '\''
+		return !unicode.IsLetter(c) && !unicode.IsNumber(c) //&& c != '\''
 	}
 
 	split_contents := strings.FieldsFunc(contents, f)
@@ -26,7 +26,6 @@ func mapF(filename string, contents string) []mapreduce.KeyValue {
 	kv := make([]mapreduce.KeyValue, 0)
 
 	for _, word := range split_contents {
-		//word = strings.ToLower(word)
 		kv = append(kv, mapreduce.KeyValue{Key: word, Value: "1"})
 	}
 

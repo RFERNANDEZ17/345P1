@@ -172,6 +172,7 @@
 {"Key":"voyages","Value":"1"}
 {"Key":"for","Value":"1"}
 {"Key":"our","Value":"1"}
+{"Key":"Thomas","Value":"1"}
 {"Key":"library","Value":"1"}
 {"Key":"My","Value":"1"}
 {"Key":"education","Value":"1"}
@@ -416,6 +417,7 @@
 {"Key":"ran","Value":"1"}
 {"Key":"read","Value":"1"}
 {"Key":"our","Value":"1"}
+{"Key":"Thomas","Value":"1"}
 {"Key":"voyages","Value":"1"}
 {"Key":"with","Value":"1"}
 {"Key":"poets","Value":"1"}
@@ -562,6 +564,7 @@
 {"Key":"purchase","Value":"1"}
 {"Key":"stock","Value":"1"}
 {"Key":"himself","Value":"1"}
+{"Key":"woman","Value":"1"}
 {"Key":"her","Value":"1"}
 {"Key":"with","Value":"1"}
 {"Key":"her","Value":"1"}
@@ -1655,7 +1658,7 @@
 {"Key":"for","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"employment","Value":"1"}
-{"Key":"merchant's","Value":"1"}
+{"Key":"merchant","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"only","Value":"1"}
 {"Key":"more","Value":"1"}
@@ -2407,9 +2410,9 @@
 {"Key":"scientific","Value":"1"}
 {"Key":"struggle","Value":"1"}
 {"Key":"with","Value":"1"}
-{"Key":"child's","Value":"1"}
 {"Key":"blindness","Value":"1"}
 {"Key":"added","Value":"1"}
+{"Key":"student","Value":"1"}
 {"Key":"thirst","Value":"1"}
 {"Key":"for","Value":"1"}
 {"Key":"preceptors","Value":"1"}
@@ -3095,6 +3098,7 @@
 {"Key":"its","Value":"1"}
 {"Key":"own","Value":"1"}
 {"Key":"shadows","Value":"1"}
+{"Key":"professor","Value":"1"}
 {"Key":"words","Value":"1"}
 {"Key":"rather","Value":"1"}
 {"Key":"words","Value":"1"}
@@ -4067,6 +4071,7 @@
 {"Key":"he","Value":"1"}
 {"Key":"fiend","Value":"1"}
 {"Key":"Doth","Value":"1"}
+{"Key":"Coleridge","Value":"1"}
 {"Key":"thus","Value":"1"}
 {"Key":"length","Value":"1"}
 {"Key":"opposite","Value":"1"}
@@ -4129,7 +4134,6 @@
 {"Key":"Greek","Value":"1"}
 {"Key":"eat","Value":"1"}
 {"Key":"Greek","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"for","Value":"1"}
 {"Key":"length","Value":"1"}
 {"Key":"he","Value":"1"}
@@ -4270,7 +4274,6 @@
 {"Key":"he","Value":"1"}
 {"Key":"what","Value":"1"}
 {"Key":"for","Value":"1"}
-{"Key":"God's","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"are","Value":"1"}
@@ -5428,10 +5431,10 @@
 {"Key":"hastily","Value":"1"}
 {"Key":"victim","Value":"1"}
 {"Key":"her","Value":"1"}
+{"Key":"O","Value":"1"}
 {"Key":"have","Value":"1"}
 {"Key":"murdered","Value":"1"}
 {"Key":"darling","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"with","Value":"1"}
 {"Key":"extreme","Value":"1"}
 {"Key":"difficulty","Value":"1"}
@@ -5552,7 +5555,6 @@
 {"Key":"seen","Value":"1"}
 {"Key":"untimely","Value":"1"}
 {"Key":"loss","Value":"1"}
-{"Key":"murderer's","Value":"1"}
 {"Key":"much","Value":"1"}
 {"Key":"more","Value":"1"}
 {"Key":"murdered","Value":"1"}
@@ -5640,8 +5642,6 @@
 {"Key":"lake","Value":"1"}
 {"Key":"waters","Value":"1"}
 {"Key":"snowy","Value":"1"}
-{"Key":"'the","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"continued","Value":"1"}
 {"Key":"Geneva","Value":"1"}
 {"Key":"The","Value":"1"}
@@ -5995,7 +5995,6 @@
 {"Key":"darling","Value":"1"}
 {"Key":"our","Value":"1"}
 {"Key":"unrestrained","Value":"1"}
-{"Key":"brother's","Value":"1"}
 {"Key":"agony","Value":"1"}
 {"Key":"crept","Value":"1"}
 {"Key":"had","Value":"1"}
@@ -6581,6 +6580,7 @@
 {"Key":"admiration","Value":"1"}
 {"Key":"her","Value":"1"}
 {"Key":"after","Value":"1"}
+{"Key":"uncle","Value":"1"}
 {"Key":"warmly","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"dead","Value":"1"}
@@ -6604,7 +6604,7 @@
 {"Key":"much","Value":"1"}
 {"Key":"her","Value":"1"}
 {"Key":"A","Value":"1"}
-{"Key":"Elizabeth's","Value":"1"}
+{"Key":"Elizabeth","Value":"1"}
 {"Key":"simple","Value":"1"}
 {"Key":"her","Value":"1"}
 {"Key":"with","Value":"1"}
@@ -7022,7 +7022,7 @@
 {"Key":"suffer","Value":"1"}
 {"Key":"others","Value":"1"}
 {"Key":"And","Value":"1"}
-{"Key":"Elizabeth's","Value":"1"}
+{"Key":"Elizabeth","Value":"1"}
 {"Key":"heart","Value":"1"}
 {"Key":"eloquence","Value":"1"}
 {"Key":"failed","Value":"1"}
@@ -7373,7 +7373,7 @@
 {"Key":"as","Value":"1"}
 {"Key":"for","Value":"1"}
 {"Key":"each","Value":"1"}
-{"Key":"other's","Value":"1"}
+{"Key":"other","Value":"1"}
 {"Key":"Yet","Value":"1"}
 {"Key":"am","Value":"1"}
 {"Key":"believed","Value":"1"}
@@ -7842,7 +7842,6 @@
 {"Key":"poison","Value":"1"}
 {"Key":"rise","Value":"1"}
 {"Key":"one","Value":"1"}
-{"Key":"wand'ring","Value":"1"}
 {"Key":"Embrace","Value":"1"}
 {"Key":"fond","Value":"1"}
 {"Key":"woe","Value":"1"}
@@ -7856,6 +7855,7 @@
 {"Key":"is","Value":"1"}
 {"Key":"free","Value":"1"}
 {"Key":"may","Value":"1"}
+{"Key":"ne","Value":"1"}
 {"Key":"may","Value":"1"}
 {"Key":"nearly","Value":"1"}
 {"Key":"noon","Value":"1"}
@@ -8599,7 +8599,6 @@
 {"Key":"lake","Value":"1"}
 {"Key":"fire","Value":"1"}
 {"Key":"greedily","Value":"1"}
-{"Key":"shepherd's","Value":"1"}
 {"Key":"consisted","Value":"1"}
 {"Key":"wine","Value":"1"}
 {"Key":"latter","Value":"1"}
@@ -9017,7 +9016,6 @@
 {"Key":"more","Value":"1"}
 {"Key":"they","Value":"1"}
 {"Key":"one","Value":"1"}
-{"Key":"another's","Value":"1"}
 {"Key":"speech","Value":"1"}
 {"Key":"each","Value":"1"}
 {"Key":"looks","Value":"1"}
@@ -9142,12 +9140,7 @@
 {"Key":"most","Value":"1"}
 {"Key":"applied","Value":"1"}
 {"Key":"words","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'milk","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'wood","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"fire","Value":"1"}
 {"Key":"themselves","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"had","Value":"1"}
@@ -9157,16 +9150,10 @@
 {"Key":"had","Value":"1"}
 {"Key":"only","Value":"1"}
 {"Key":"one","Value":"1"}
-{"Key":"'father","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"The","Value":"1"}
-{"Key":"'Agatha","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'brother","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'son","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"sister","Value":"1"}
+{"Key":"Agatha","Value":"1"}
+{"Key":"son","Value":"1"}
 {"Key":"describe","Value":"1"}
 {"Key":"ideas","Value":"1"}
 {"Key":"appropriated","Value":"1"}
@@ -9184,10 +9171,7 @@
 {"Key":"yet","Value":"1"}
 {"Key":"them","Value":"1"}
 {"Key":"as","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'dearest","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"unhappy","Value":"1"}
 {"Key":"this","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"them","Value":"1"}
@@ -9416,7 +9400,7 @@
 {"Key":"occasions","Value":"1"}
 {"Key":"utter","Value":"1"}
 {"Key":"words","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"wonderful","Value":"1"}
 {"Key":"signification","Value":"1"}
 {"Key":"these","Value":"1"}
 {"Key":"My","Value":"1"}
@@ -9526,6 +9510,7 @@
 {"Key":"music","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"inquired","Value":"1"}
+{"Key":"son","Value":"1"}
 {"Key":"cheerful","Value":"1"}
 {"Key":"music","Value":"1"}
 {"Key":"someone","Value":"1"}
@@ -9651,7 +9636,6 @@
 {"Key":"separated","Value":"1"}
 {"Key":"kissed","Value":"1"}
 {"Key":"night","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"He","Value":"1"}
 {"Key":"sat","Value":"1"}
 {"Key":"much","Value":"1"}
@@ -9754,6 +9738,7 @@
 {"Key":"wonder","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"instructed","Value":"1"}
+{"Key":"Volney","Value":"1"}
 {"Key":"have","Value":"1"}
 {"Key":"understood","Value":"1"}
 {"Key":"this","Value":"1"}
@@ -10396,7 +10381,6 @@
 {"Key":"after","Value":"1"}
 {"Key":"Turk","Value":"1"}
 {"Key":"entered","Value":"1"}
-{"Key":"daughter's","Value":"1"}
 {"Key":"her","Value":"1"}
 {"Key":"hastily","Value":"1"}
 {"Key":"he","Value":"1"}
@@ -10522,7 +10506,6 @@
 {"Key":"had","Value":"1"}
 {"Key":"they","Value":"1"}
 {"Key":"consisted","Value":"1"}
-{"Key":"Plutarch's","Value":"1"}
 {"Key":"Lives","Value":"1"}
 {"Key":"Werter","Value":"1"}
 {"Key":"The","Value":"1"}
@@ -10601,8 +10584,8 @@
 {"Key":"with","Value":"1"}
 {"Key":"understood","Value":"1"}
 {"Key":"them","Value":"1"}
+{"Key":"The","Value":"1"}
 {"Key":"free","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"My","Value":"1"}
 {"Key":"stature","Value":"1"}
 {"Key":"What","Value":"1"}
@@ -10615,7 +10598,6 @@
 {"Key":"solve","Value":"1"}
 {"Key":"them","Value":"1"}
 {"Key":"The","Value":"1"}
-{"Key":"Plutarch's","Value":"1"}
 {"Key":"Lives","Value":"1"}
 {"Key":"This","Value":"1"}
 {"Key":"had","Value":"1"}
@@ -10623,7 +10605,7 @@
 {"Key":"different","Value":"1"}
 {"Key":"effect","Value":"1"}
 {"Key":"Werter","Value":"1"}
-{"Key":"Werter's","Value":"1"}
+{"Key":"Werter","Value":"1"}
 {"Key":"taught","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"above","Value":"1"}
@@ -10795,7 +10777,6 @@
 {"Key":"as","Value":"1"}
 {"Key":"read","Value":"1"}
 {"Key":"received","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"agony","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"pity","Value":"1"}
@@ -10812,7 +10793,6 @@
 {"Key":"am","Value":"1"}
 {"Key":"solitary","Value":"1"}
 {"Key":"abhorred","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"hours","Value":"1"}
 {"Key":"solitude","Value":"1"}
 {"Key":"virtues","Value":"1"}
@@ -10847,7 +10827,6 @@
 {"Key":"found","Value":"1"}
 {"Key":"much","Value":"1"}
 {"Key":"with","Value":"1"}
-{"Key":"day's","Value":"1"}
 {"Key":"this","Value":"1"}
 {"Key":"more","Value":"1"}
 {"Key":"have","Value":"1"}
@@ -11036,14 +11015,10 @@
 {"Key":"determination","Value":"1"}
 {"Key":"door","Value":"1"}
 {"Key":"knocked","Value":"1"}
-{"Key":"'Who","Value":"1"}
 {"Key":"is","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"Come","Value":"1"}
 {"Key":"entered","Value":"1"}
-{"Key":"'Pardon","Value":"1"}
 {"Key":"this","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"am","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"oblige","Value":"1"}
@@ -11051,8 +11026,6 @@
 {"Key":"you","Value":"1"}
 {"Key":"before","Value":"1"}
 {"Key":"fire","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"Lacey","Value":"1"}
 {"Key":"what","Value":"1"}
 {"Key":"your","Value":"1"}
@@ -11065,7 +11038,6 @@
 {"Key":"food","Value":"1"}
 {"Key":"for","Value":"1"}
 {"Key":"you","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"host","Value":"1"}
 {"Key":"have","Value":"1"}
 {"Key":"food","Value":"1"}
@@ -11073,7 +11045,6 @@
 {"Key":"warmth","Value":"1"}
 {"Key":"only","Value":"1"}
 {"Key":"need","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"sat","Value":"1"}
 {"Key":"precious","Value":"1"}
 {"Key":"yet","Value":"1"}
@@ -11088,7 +11059,6 @@
 {"Key":"are","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"French","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"educated","Value":"1"}
 {"Key":"French","Value":"1"}
 {"Key":"language","Value":"1"}
@@ -11099,10 +11069,9 @@
 {"Key":"sincerely","Value":"1"}
 {"Key":"whose","Value":"1"}
 {"Key":"have","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"Are","Value":"1"}
 {"Key":"they","Value":"1"}
 {"Key":"Germans","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"they","Value":"1"}
 {"Key":"are","Value":"1"}
 {"Key":"French","Value":"1"}
@@ -11122,7 +11091,6 @@
 {"Key":"for","Value":"1"}
 {"Key":"if","Value":"1"}
 {"Key":"am","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"friendless","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"hearts","Value":"1"}
@@ -11137,7 +11105,6 @@
 {"Key":"these","Value":"1"}
 {"Key":"are","Value":"1"}
 {"Key":"amiable","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"are","Value":"1"}
 {"Key":"they","Value":"1"}
 {"Key":"are","Value":"1"}
@@ -11156,7 +11123,7 @@
 {"Key":"friend","Value":"1"}
 {"Key":"they","Value":"1"}
 {"Key":"only","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"That","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"if","Value":"1"}
 {"Key":"you","Value":"1"}
@@ -11165,7 +11132,6 @@
 {"Key":"you","Value":"1"}
 {"Key":"undeceive","Value":"1"}
 {"Key":"them","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"am","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"many","Value":"1"}
@@ -11183,14 +11149,12 @@
 {"Key":"them","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"prejudice","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'Where","Value":"1"}
+{"Key":"Where","Value":"1"}
 {"Key":"these","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"this","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"continued","Value":"1"}
+{"Key":"If","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"confide","Value":"1"}
 {"Key":"your","Value":"1"}
@@ -11209,8 +11173,6 @@
 {"Key":"are","Value":"1"}
 {"Key":"am","Value":"1"}
 {"Key":"creature","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'Excellent","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"accept","Value":"1"}
 {"Key":"your","Value":"1"}
@@ -11220,7 +11182,6 @@
 {"Key":"aid","Value":"1"}
 {"Key":"your","Value":"1"}
 {"Key":"creatures","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"forbid","Value":"1"}
 {"Key":"Even","Value":"1"}
 {"Key":"if","Value":"1"}
@@ -11238,7 +11199,6 @@
 {"Key":"for","Value":"1"}
 {"Key":"your","Value":"1"}
 {"Key":"misfortunes","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"only","Value":"1"}
 {"Key":"your","Value":"1"}
@@ -11252,8 +11212,7 @@
 {"Key":"am","Value":"1"}
 {"Key":"point","Value":"1"}
 {"Key":"meeting","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'","Value":"1"}
+{"Key":"May","Value":"1"}
 {"Key":"This","Value":"1"}
 {"Key":"decision","Value":"1"}
 {"Key":"rob","Value":"1"}
@@ -11277,13 +11236,8 @@
 {"Key":"you","Value":"1"}
 {"Key":"desert","Value":"1"}
 {"Key":"trial","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'Great","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'Who","Value":"1"}
 {"Key":"are","Value":"1"}
 {"Key":"you","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"door","Value":"1"}
 {"Key":"Agatha","Value":"1"}
 {"Key":"entered","Value":"1"}
@@ -11469,7 +11423,6 @@
 {"Key":"these","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"consider","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"three","Value":"1"}
 {"Key":"produce","Value":"1"}
@@ -11479,10 +11432,8 @@
 {"Key":"consider","Value":"1"}
 {"Key":"your","Value":"1"}
 {"Key":"determination","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"useless","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"your","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"is","Value":"1"}
@@ -11503,7 +11454,6 @@
 {"Key":"tenement","Value":"1"}
 {"Key":"fly","Value":"1"}
 {"Key":"this","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"as","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"this","Value":"1"}
@@ -11895,15 +11845,12 @@
 {"Key":"this","Value":"1"}
 {"Key":"hurt","Value":"1"}
 {"Key":"you","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"He","Value":"1"}
 {"Key":"struggled","Value":"1"}
-{"Key":"'Let","Value":"1"}
+{"Key":"Let","Value":"1"}
 {"Key":"go","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"cried","Value":"1"}
-{"Key":"'monster","Value":"1"}
 {"Key":"Ugly","Value":"1"}
 {"Key":"wretch","Value":"1"}
 {"Key":"You","Value":"1"}
@@ -11913,14 +11860,12 @@
 {"Key":"Let","Value":"1"}
 {"Key":"go","Value":"1"}
 {"Key":"tell","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"see","Value":"1"}
 {"Key":"your","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"with","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'Hideous","Value":"1"}
+{"Key":"Hideous","Value":"1"}
 {"Key":"Let","Value":"1"}
 {"Key":"go","Value":"1"}
 {"Key":"My","Value":"1"}
@@ -11932,15 +11877,12 @@
 {"Key":"you","Value":"1"}
 {"Key":"You","Value":"1"}
 {"Key":"dare","Value":"1"}
-{"Key":"'","Value":"1"}
-{"Key":"'Frankenstein","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"enemy","Value":"1"}
 {"Key":"have","Value":"1"}
 {"Key":"eternal","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"victim","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"struggled","Value":"1"}
 {"Key":"with","Value":"1"}
@@ -11961,7 +11903,6 @@
 {"Key":"miseries","Value":"1"}
 {"Key":"torment","Value":"1"}
 {"Key":"destroy","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"As","Value":"1"}
 {"Key":"glittering","Value":"1"}
 {"Key":"portrait","Value":"1"}
@@ -12032,7 +11973,6 @@
 {"Key":"he","Value":"1"}
 {"Key":"one","Value":"1"}
 {"Key":"look","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"sleeper","Value":"1"}
 {"Key":"stirred","Value":"1"}
@@ -12233,6 +12173,7 @@
 {"Key":"hundred","Value":"1"}
 {"Key":"for","Value":"1"}
 {"Key":"one","Value":"1"}
+{"Key":"creature","Value":"1"}
 {"Key":"with","Value":"1"}
 {"Key":"What","Value":"1"}
 {"Key":"you","Value":"1"}
@@ -12995,6 +12936,7 @@
 {"Key":"is","Value":"1"}
 {"Key":"blind","Value":"1"}
 {"Key":"circumstances","Value":"1"}
+{"Key":"woman","Value":"1"}
 {"Key":"longed","Value":"1"}
 {"Key":"hasten","Value":"1"}
 {"Key":"her","Value":"1"}
@@ -13300,6 +13242,7 @@
 {"Key":"length","Value":"1"}
 {"Key":"numerous","Value":"1"}
 {"Key":"steeples","Value":"1"}
+{"Key":"Paul","Value":"1"}
 {"Key":"above","Value":"1"}
 {"Key":"Tower","Value":"1"}
 {"Key":"famed","Value":"1"}
@@ -13655,7 +13598,6 @@
 {"Key":"Switzerland","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"found","Value":"1"}
-{"Key":"traveller's","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"one","Value":"1"}
 {"Key":"much","Value":"1"}
@@ -14349,7 +14291,7 @@
 {"Key":"calmness","Value":"1"}
 {"Key":"into","Value":"1"}
 {"Key":"last","Value":"1"}
-{"Key":"night's","Value":"1"}
+{"Key":"night","Value":"1"}
 {"Key":"regarded","Value":"1"}
 {"Key":"as","Value":"1"}
 {"Key":"insuperable","Value":"1"}
@@ -14768,6 +14710,7 @@
 {"Key":"Come","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"Mr","Value":"1"}
+{"Key":"Kirwin","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"Mr","Value":"1"}
 {"Key":"Kirwin","Value":"1"}
@@ -15406,7 +15349,6 @@
 {"Key":"away","Value":"1"}
 {"Key":"see","Value":"1"}
 {"Key":"for","Value":"1"}
-{"Key":"God's","Value":"1"}
 {"Key":"Mr","Value":"1"}
 {"Key":"Kirwin","Value":"1"}
 {"Key":"regarded","Value":"1"}
@@ -15738,6 +15680,7 @@
 {"Key":"respite","Value":"1"}
 {"Key":"presented","Value":"1"}
 {"Key":"nightmare","Value":"1"}
+{"Key":"fiend","Value":"1"}
 {"Key":"could","Value":"1"}
 {"Key":"free","Value":"1"}
 {"Key":"groans","Value":"1"}
@@ -16139,7 +16082,6 @@
 {"Key":"you","Value":"1"}
 {"Key":"may","Value":"1"}
 {"Key":"stifle","Value":"1"}
-{"Key":"'","Value":"1"}
 {"Key":"restore","Value":"1"}
 {"Key":"you","Value":"1"}
 {"Key":"have","Value":"1"}
@@ -16347,7 +16289,7 @@
 {"Key":"week","Value":"1"}
 {"Key":"after","Value":"1"}
 {"Key":"arrival","Value":"1"}
-{"Key":"Elizabeth's","Value":"1"}
+{"Key":"Elizabeth","Value":"1"}
 {"Key":"Geneva","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"welcomed","Value":"1"}
@@ -16938,6 +16880,7 @@
 {"Key":"loved","Value":"1"}
 {"Key":"The","Value":"1"}
 {"Key":"murderous","Value":"1"}
+{"Key":"fiend","Value":"1"}
 {"Key":"her","Value":"1"}
 {"Key":"had","Value":"1"}
 {"Key":"issue","Value":"1"}
@@ -17661,7 +17604,7 @@
 {"Key":"countenance","Value":"1"}
 {"Key":"heard","Value":"1"}
 {"Key":"silver","Value":"1"}
-{"Key":"Elizabeth's","Value":"1"}
+{"Key":"Elizabeth","Value":"1"}
 {"Key":"toilsome","Value":"1"}
 {"Key":"dreaming","Value":"1"}
 {"Key":"night","Value":"1"}
@@ -17831,7 +17774,6 @@
 {"Key":"ocean","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"one","Value":"1"}
-{"Key":"day's","Value":"1"}
 {"Key":"before","Value":"1"}
 {"Key":"he","Value":"1"}
 {"Key":"reach","Value":"1"}
@@ -18185,6 +18127,7 @@
 {"Key":"Sometimes","Value":"1"}
 {"Key":"endeavoured","Value":"1"}
 {"Key":"gain","Value":"1"}
+{"Key":"creature","Value":"1"}
 {"Key":"this","Value":"1"}
 {"Key":"point","Value":"1"}
 {"Key":"he","Value":"1"}
@@ -20308,8 +20251,6 @@
 {"Key":"is","Value":"1"}
 {"Key":"provided","Value":"1"}
 {"Key":"you","Value":"1"}
-{"Key":"'AS","Value":"1"}
-{"Key":"IS'","Value":"1"}
 {"Key":"WITH","Value":"1"}
 {"Key":"OTHER","Value":"1"}
 {"Key":"ANY","Value":"1"}
@@ -20391,7 +20332,7 @@
 {"Key":"need","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"critical","Value":"1"}
-{"Key":"tm's","Value":"1"}
+{"Key":"tm","Value":"1"}
 {"Key":"tm","Value":"1"}
 {"Key":"collection","Value":"1"}
 {"Key":"freely","Value":"1"}
@@ -20425,6 +20366,7 @@
 {"Key":"tax","Value":"1"}
 {"Key":"Internal","Value":"1"}
 {"Key":"The","Value":"1"}
+{"Key":"Foundation","Value":"1"}
 {"Key":"federal","Value":"1"}
 {"Key":"tax","Value":"1"}
 {"Key":"is","Value":"1"}
@@ -20441,6 +20383,7 @@
 {"Key":"federal","Value":"1"}
 {"Key":"your","Value":"1"}
 {"Key":"The","Value":"1"}
+{"Key":"Foundation","Value":"1"}
 {"Key":"is","Value":"1"}
 {"Key":"located","Value":"1"}
 {"Key":"4557","Value":"1"}
@@ -20463,6 +20406,7 @@
 {"Key":"Email","Value":"1"}
 {"Key":"information","Value":"1"}
 {"Key":"found","Value":"1"}
+{"Key":"Foundation","Value":"1"}
 {"Key":"web","Value":"1"}
 {"Key":"additional","Value":"1"}
 {"Key":"information","Value":"1"}
